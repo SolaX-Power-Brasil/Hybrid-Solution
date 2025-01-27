@@ -1,0 +1,59 @@
+{
+    "singlePhaseHighVoltageBattery": 
+    [
+        {
+            "id": "singleInverter_T58-001",
+            "inverter": { "model": "X1-Hybrid-5.0", "quantity": 1, "nominalVoltageV": 220, "ratedPowerKW": 5.0, "peakPowerKW": 7.5 },
+            "battery": { "model": "T58", "quantity": 1, "powerKW": 2.8, "availableEnergyKWH": 5.1 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter_T58-002",
+            "inverter": { "model": "X1-Hybrid-5.0", "quantity": 1, "nominalVoltageV": 220, "ratedPowerKW": 5.0, "peakPowerKW": 7.5 },
+            "battery": { "model": "T58", "quantity": 2, "powerKW": 5.6, "availableEnergyKWH": 10.2 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter_T58-003",
+            "inverter": { "model": "X1-Hybrid-5.0", "quantity": 1, "nominalVoltageV": 220, "ratedPowerKW": 5.0, "peakPowerKW": 7.5 },
+            "battery": { "model": "T58", "quantity": 3, "powerKW": 8.64, "availableEnergyKWH": 15.5 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": [null]
+        },
+        {
+            "id": "parallelInverter-001",
+            "inverter": { "model": "X1-Hybrid-5.0", "quantity": 2, "nominalVoltageV": 220, "ratedPowerKW": 10.0, "peakPowerKW": 15.0 },
+            "battery": { "model": "T58", "quantity": 2, "powerKW": 5.6, "availableEnergyKWH": 15.5 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter-002",
+            "inverter": { "model": "X1-Hybrid-5.0", "quantity": 2, "nominalVoltageV": 220, "ratedPowerKW": 10.0, "peakPowerKW": 15.0 },
+            "battery": { "model": "T58", "quantity": 4, "powerKW": 11.4, "availableEnergyKWH": 20.8 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter-003",
+            "inverter": { "model": "X1-Hybrid-5.0", "quantity": 2, "nominalVoltageV": 220, "ratedPowerKW": 10.0, "peakPowerKW": 15.0 },
+            "battery": { "model": "T58", "quantity": 6, "powerKW": 17.2, "availableEnergyKWH": 30.1 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": [null]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "threePhaseHighVoltageBattery": 
+    [
+        {
+            "id": "singleInverter-002",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerKW": 15.0, "peakPowerKW": 22.5 },
+            "battery": { "model": "T58", "quantity": 2, "powerKW": 5.7, "availableEnergyKWH": 10.4 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter-003",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerKW": 15.0, "peakPowerKW": 22.5 },
+            "battery": { "model": "T58", "quantity": 3, "powerKW": 8.6, "availableEnergyKWH": 15.5 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter-004",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerKW": 15.0, "peakPowerKW": 22.5 },
+            "battery": { "model": "T58", "quantity": 4, "powerKW": 11.5, "availableEnergyKWH": 20.7 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter-005",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerKW": 15.0, "peakPowerKW": 22.5 },
+            "battery": { "model": "T58", "quantity": 6, "powerKW": 8.6, "availableEnergyKWH": 30.1 },
+            "accessories": [{ "model": "BMS Parallel Box G2", "quantity": 1.0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter-006",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerKW": 15.0, "peakPowerKW": 22.5 },
+            "battery": { "model": "T58", "quantity": 8, "powerKW": 11.5, "availableEnergyKWH": 41.4 },
+            "accessories": [{ "model": "BMS Parallel Box G2", "quantity": 1.0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter-001",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerKW": 30.0, "peakPowerKW": 45.0 },
+            "battery": { "model": "T58", "quantity": 2, "powerKW": 5.6, "availableEnergyKWH": 15.5 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter-002",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerKW": 30.0, "peakPowerKW": 45.0 },
+            "battery": { "model": "T58", "quantity": 4, "powerKW": 11.4, "availableEnergyKWH": 20.8 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter-003",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerKW": 30.0, "peakPowerKW": 45.0 },
+            "battery": { "model": "T58", "quantity": 6, "powerKW": 17.2, "availableEnergyKWH": 30.1 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": [null]
+        }
+    ]
+}
