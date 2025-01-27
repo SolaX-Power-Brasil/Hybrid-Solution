@@ -29,14 +29,14 @@ Informações em formato JSON sobre as possíveis combinações de produtos híb
   - **model**: Modelo oficial do inversor (conforme consta no datasheet)
   - **quantity**: Quantos inversores estão presentes em cada solução
   - **nominalVoltageV**: Tensão nominal de operação (Para sistemas monofásicos é a tensão Fase-Neutro, para sistemas trfásicos é a tensão Fase-Fase)
-  - **ratedPowerKW**: Potência de regime (nominal) combinada de todos os inversores da solução.
-  - **peakPowerKW**: Potência de pico (normalmente 10 segundos ou 20 segundos) combinada de todos os inversores da solução.
+  - **ratedPowerW**: Potência de regime (nominal) combinada de todos os inversores da solução.
+  - **peakPowerW**: Potência de pico (normalmente 10 segundos ou 20 segundos) combinada de todos os inversores da solução.
  
 - battery
   - **model**: Modelo oficial da bateria (conforme consta no datasheet)
   - **quantity**: Quantas baterias estão presentes em cada solução
-  - **powerKW**: Potência padrão combinada de todas as baterias da solução
-  - **availableEnergyKWH**: Energia disponível (descontando os 10% da energia total) de todas as baterias da solução
+  - **powerW**: Potência padrão combinada de todas as baterias da solução
+  - **availableEnergyWh**: Energia disponível (descontando os 10% da energia total) de todas as baterias da solução
   
 - accessories
   - **model**: Modelo oficial do acessório (conforme consta no datasheet)
