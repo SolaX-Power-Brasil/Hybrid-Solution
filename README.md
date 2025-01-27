@@ -1,7 +1,7 @@
 # Soluções SolaX Power - Sistemas Residenciais
 Informações em formato JSON sobre as possíveis combinações de produtos híbridos da SolaX Power para soluções de armazenamento.  
 
-## Formato das informações
+## Formato da estrutura dos dados
 ```
  "setOfSolutionsForEspecificTechnology": 
  [
@@ -48,7 +48,12 @@ Informações em formato JSON sobre as possíveis combinações de produtos híb
 > [!NOTE]
 > O campo `coments` é uma lista de observações importantes para cada solução.
 > Ex: limite de potência, compatibilidade entre equipamentos ou qualquer outra informação que julgarmos necessário esclarecer ao cliente .
-  
+
+## Arquivos
+`singlePhaseHVBat.json`: Soluções para sistemas **monofásicos 220V**, usando a família **X1-Hybrid-G4** e **Baterias de alta tensão** (T58, HS36, ...)  
+`threePhaseHVBat.json`: Soluções para sistemas **trifásicos 380V**, usando a família **X3-Hybrid-G4** e **Baterias de alta tensão** (T58, HS36, ...)
+
+
  
 
 
