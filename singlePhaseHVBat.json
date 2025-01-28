@@ -8,8 +8,7 @@
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
-                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
-                "teste"
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
             ]
         },
         {
@@ -32,7 +31,7 @@
 
 
         {
-            "id": "singleInverter_5K_T58-101",
+            "id": "singleInverter_5K_T58-102",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 4, "powerW": 5600, "availableEnergyWh": 20800 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
@@ -42,7 +41,7 @@
             ]
         },
         {
-            "id": "singleInverter_5K_T58-102",
+            "id": "singleInverter_5K_T58-103",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 6, "powerW": 8640, "availableEnergyWh": 30100 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
