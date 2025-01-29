@@ -1,3 +1,4 @@
+import pytest
 import os
 import json
 from collections import Counter
@@ -17,7 +18,9 @@ def no_duplicated_id(file_path: str) -> bool:
         return True
     
 
-folder = "../"
-files = ["singlePhaseHVBat.json", "threePhaseHVBat.json", "splitPhaseHVBat.json"]
-for idx, file in enumerate(files):
-    if no_duplicated_id(folder + file): print(f"Pass - Duplicated ID: {file} ")
+def test_duplicated_id():
+    assert no_duplicated_id("../singlePhaseHVBat.json") == True
+    assert no_duplicated_id("../splitPhaseHVBat.json") == True
+    assert no_duplicated_id("../threePhaseHVBat.json") == True
+
+

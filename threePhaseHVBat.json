@@ -2,9 +2,9 @@
     "threePhaseHighVoltageBattery": 
     [
         {
-            "id": "singleInverter_T58-002",
+            "id": "singleInverter_T58-011",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5700, "availableEnergyKWH": 10.4 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -12,9 +12,9 @@
             ]
         },
         {
-            "id": "singleInverter_T58-003",
+            "id": "singleInverter_T58-012",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8600, "availableEnergyKWH": 15.5 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -22,43 +22,86 @@
             ]
         },
         {
-            "id": "singleInverter_T58-004",
+            "id": "singleInverter_T58-013",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyKWH": 20.7 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 20700 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
             ]
         },
+
+
         {
-            "id": "singleInverter_T58-005",
+            "id": "singleInverter_T58-111",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 8600, "availableEnergyKWH": 30.1 },
-            "accessories": [{ "model": "BMS Parallel Box G2", "quantity": 1.0 }],
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
+            "accessories":
+            [ 
+                { "model": "BMS-Parallel Box-II G2", "quantity": 1 }
+            ],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
             ]
         },
+
         {
-            "id": "singleInverter_T58-006",
+            "id": "singleInverter_T58-112",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 8, "powerW": 11500, "availableEnergyKWH": 41.4 },
-            "accessories": [{ "model": "BMS Parallel Box G2", "quantity": 1.0 }],
-            "comments": 
-            [
-                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
-            ]
-        },
-        {
-            "id": "singleInverter_T58-007",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 8, "powerW": 11500, "availableEnergyKWH": 41.4 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 11500, "availableEnergyWh": 41400 },
             "accessories": 
             [
-                { "model": "BMS Parallel Box G2", "quantity": 1 },
-                { "model": "X1-Matebox G2", "quantity": 1}
+                { "model": "BMS-Parallel Box-II G2", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+
+        {
+            "id": "singleInverter_T58-211",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5757, "availableEnergyWh": 10350 },
+            "accessories": [{"model": "X3-Matebox Advanced", "quantity": 1}],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter_T58-212",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
+            "accessories": [{"model": "X3-Matebox Advanced", "quantity": 1}],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "singleInverter_T58-213",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 15525 },
+            "accessories": [{"model": "X3-Matebox Advanced", "quantity": 1}],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+
+        {
+            "id": "singleInverter_T58-311",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 1 },
+                { "model": "X3-Matebox Advanced", "quantity": 1}
             ],
             "comments": 
             [
@@ -66,9 +109,27 @@
             ]
         },
         {
-            "id": "parallelInverter_T58-001",
+            "id": "singleInverter_T58-312",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 11500, "availableEnergyWh": 41400 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 1 },
+                { "model": "X3-Matebox Advanced", "quantity": 1}
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+
+
+        
+        {
+            "id": "parallelInverter_T58-021",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyKWH": 15.5 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyWh": 20800 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -76,9 +137,9 @@
             ]
         },
         {
-            "id": "parallelInverter_T58-002",
+            "id": "parallelInverter_T58-022",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyKWH": 20.8 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyWh": 30100 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -86,11 +147,871 @@
             ]
         },
         {
-            "id": "parallelInverter_T58-003",
+            "id": "parallelInverter_T58-023",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyKWH": 30.1 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 23000, "availableEnergyWh": 41400 },
             "accessories": [{ "model": null, "quantity": 0 }],
-            "comments": [null]
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-121",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 17250, "availableEnergyWh": 62100 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 2 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-122",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 16, "powerW": 23000, "availableEnergyWh": 82800 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 2 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-521",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 20700 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-522",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-523",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 23000, "availableEnergyWh": 41400 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-621",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 17250, "availableEnergyWh": 62100 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 2 },
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-622",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
+            "battery": { "model": "T58", "quantity": 16, "powerW": 23000, "availableEnergyWh": 82800 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 2 },
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+
+        {
+            "id": "parallelInverter_T58-031",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-032",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 9, "powerW": 25875, "availableEnergyWh": 46575 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-033",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 34500, "availableEnergyWh": 62100 },
+            "accessories": [{ "model": null, "quantity": 0 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-131",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 18, "powerW": 25875, "availableEnergyWh": 93150 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 3 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-132",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 24, "powerW": 34500, "availableEnergyWh": 124200 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 3 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-531",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-532",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 9, "powerW": 25875, "availableEnergyWh": 46575 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-533",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 34500, "availableEnergyWh": 62100 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-631",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 18, "powerW": 25875, "availableEnergyWh": 93150 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 3 },
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-632",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 24, "powerW": 34500, "availableEnergyWh": 124200 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 3 },
+                { "model": "X3-PBOX-60kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-541",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 4, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 23000, "availableEnergyWh": 41400 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-542",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 4, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 34500, "availableEnergyWh": 62100 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-543",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 4, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 16, "powerW": 46000, "availableEnergyWh": 82800 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-641",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 4, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 24, "powerW": 34500, "availableEnergyWh": 142200 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 4 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-642",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 4, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 32, "powerW": 46000, "availableEnergyWh": 165600 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 4 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-551",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 75000, "peakPowerW": 112500 },
+            "battery": { "model": "T58", "quantity": 10, "powerW": 28750, "availableEnergyWh": 51750 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-552",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 75000, "peakPowerW": 112500 },
+            "battery": { "model": "T58", "quantity": 15, "powerW": 43125, "availableEnergyWh": 77625 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-553",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 75000, "peakPowerW": 112500 },
+            "battery": { "model": "T58", "quantity": 20, "powerW": 57500, "availableEnergyWh": 103500 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-651",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 30, "powerW": 43125, "availableEnergyWh": 155250 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 5 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-652",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "battery": { "model": "T58", "quantity": 40, "powerW": 57500, "availableEnergyWh": 207000 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 5 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-561",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 6, "nominalVoltageV": 380, "ratedPowerW": 90000, "peakPowerW": 135000 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 34500, "availableEnergyWh": 62100 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-562",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 6, "nominalVoltageV": 380, "ratedPowerW": 90000, "peakPowerW": 135000 },
+            "battery": { "model": "T58", "quantity": 18, "powerW": 51750, "availableEnergyWh": 93150 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-563",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 6, "nominalVoltageV": 380, "ratedPowerW": 90000, "peakPowerW": 135000 },
+            "battery": { "model": "T58", "quantity": 24, "powerW": 69000, "availableEnergyWh": 124200 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-661",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 6, "nominalVoltageV": 380, "ratedPowerW": 90000, "peakPowerW": 135000 },
+            "battery": { "model": "T58", "quantity": 36, "powerW": 51750, "availableEnergyWh": 186300 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 6 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-662",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 6, "nominalVoltageV": 380, "ratedPowerW": 90000, "peakPowerW": 135000 },
+            "battery": { "model": "T58", "quantity": 48, "powerW": 69000, "availableEnergyWh": 248400 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 6 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-571",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 7, "nominalVoltageV": 380, "ratedPowerW": 105000, "peakPowerW": 157500 },
+            "battery": { "model": "T58", "quantity": 14, "powerW": 40250, "availableEnergyWh": 72450 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-572",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 7, "nominalVoltageV": 380, "ratedPowerW": 105000, "peakPowerW": 157500 },
+            "battery": { "model": "T58", "quantity": 21, "powerW": 60375, "availableEnergyWh": 108675 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-573",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 7, "nominalVoltageV": 380, "ratedPowerW": 105000, "peakPowerW": 157500 },
+            "battery": { "model": "T58", "quantity": 28, "powerW": 80500, "availableEnergyWh": 144900 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-671",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 7, "nominalVoltageV": 380, "ratedPowerW": 105000, "peakPowerW": 157500 },
+            "battery": { "model": "T58", "quantity": 42, "powerW": 60375, "availableEnergyWh": 217350 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 7 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-672",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 7, "nominalVoltageV": 380, "ratedPowerW": 105000, "peakPowerW": 157500 },
+            "battery": { "model": "T58", "quantity": 56, "powerW": 80500, "availableEnergyWh": 289800 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 7 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-581",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 8, "nominalVoltageV": 380, "ratedPowerW": 120000, "peakPowerW": 180000 },
+            "battery": { "model": "T58", "quantity": 16, "powerW": 46000, "availableEnergyWh": 82800 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-582",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 8, "nominalVoltageV": 380, "ratedPowerW": 120000, "peakPowerW": 180000 },
+            "battery": { "model": "T58", "quantity": 24, "powerW": 69000, "availableEnergyWh": 124200 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-583",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 8, "nominalVoltageV": 380, "ratedPowerW": 120000, "peakPowerW": 180000 },
+            "battery": { "model": "T58", "quantity": 32, "powerW": 92000, "availableEnergyWh": 165600 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-681",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 8, "nominalVoltageV": 380, "ratedPowerW": 120000, "peakPowerW": 180000 },
+            "battery": { "model": "T58", "quantity": 48, "powerW": 69000, "availableEnergyWh": 248400 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 8 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-682",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 8, "nominalVoltageV": 380, "ratedPowerW": 120000, "peakPowerW": 180000 },
+            "battery": { "model": "T58", "quantity": 64, "powerW": 92000, "availableEnergyWh": 331200 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 8 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-591",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 9, "nominalVoltageV": 380, "ratedPowerW": 135000, "peakPowerW": 202500 },
+            "battery": { "model": "T58", "quantity": 18, "powerW": 51750, "availableEnergyWh": 93150 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-592",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 9, "nominalVoltageV": 380, "ratedPowerW": 135000, "peakPowerW": 202500 },
+            "battery": { "model": "T58", "quantity": 27, "powerW": 77625, "availableEnergyWh": 139725 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-593",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 9, "nominalVoltageV": 380, "ratedPowerW": 135000, "peakPowerW": 202500 },
+            "battery": { "model": "T58", "quantity": 36, "powerW": 103500, "availableEnergyWh": 139725 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-691",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 9, "nominalVoltageV": 380, "ratedPowerW": 135000, "peakPowerW": 202500 },
+            "battery": { "model": "T58", "quantity": 54, "powerW": 77625, "availableEnergyWh": 279450 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 9 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-692",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 9, "nominalVoltageV": 380, "ratedPowerW": 135000, "peakPowerW": 202500 },
+            "battery": { "model": "T58", "quantity": 72, "powerW": 103500, "availableEnergyWh": 372600 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 9 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+
+        {
+            "id": "parallelInverter_T58-5101",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 10, "nominalVoltageV": 380, "ratedPowerW": 150000, "peakPowerW": 225000 },
+            "battery": { "model": "T58", "quantity": 20, "powerW": 57500, "availableEnergyWh": 103500 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-5102",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 10, "nominalVoltageV": 380, "ratedPowerW": 150000, "peakPowerW": 225000 },
+            "battery": { "model": "T58", "quantity": 30, "powerW": 86250, "availableEnergyWh": 155250 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-5103",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 10, "nominalVoltageV": 380, "ratedPowerW": 150000, "peakPowerW": 225000 },
+            "battery": { "model": "T58", "quantity": 40, "powerW": 115000, "availableEnergyWh": 207000 },
+            "accessories": 
+            [
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 },
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+
+        {
+            "id": "parallelInverter_T58-6101",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 10, "nominalVoltageV": 380, "ratedPowerW": 150000, "peakPowerW": 225000 },
+            "battery": { "model": "T58", "quantity": 60, "powerW": 86250, "availableEnergyWh": 310500 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 10 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-6102",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 10, "nominalVoltageV": 380, "ratedPowerW": 150000, "peakPowerW": 225000 },
+            "battery": { "model": "T58", "quantity": 80, "powerW": 115000, "availableEnergyWh": 414000 },
+            "accessories": 
+            [
+                { "model": "BMS-Parallel Box-II G2", "quantity": 10 },
+                { "model": "X3-PBOX-150kW-G2", "quantity": 1 }, 
+                { "model": "Smart Meter", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais).",
+                "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
+            ]
         }
+
+
+
+
+
     ]
 }
