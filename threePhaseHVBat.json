@@ -4,7 +4,7 @@
         {
             "id": "singleInverter_T58-002",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5700, "availableEnergyWh": 10400 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -14,7 +14,7 @@
         {
             "id": "singleInverter_T58-003",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8600, "availableEnergyWh": 15500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -36,7 +36,7 @@
         {
             "id": "singleInverter_T58-101",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 8600, "availableEnergyWh": 30100 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1.0 }],
             "comments": 
             [
@@ -58,7 +58,7 @@
         {
             "id": "singleInverter_T58-301",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 1, "nominalVoltageV": 380, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 8600, "availableEnergyWh": 30100 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
             "accessories": 
             [
                 { "model": "BMS-Parallel Box-II G2", "quantity": 1 },
@@ -82,37 +82,7 @@
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
             ]
-        },
-
-
-
-        
-        {
-            "id": "parallelInverter_T58-001",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 15500 },
-            "accessories": [{ "model": null, "quantity": 0 }],
-            "comments": 
-            [
-                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
-            ]
-        },
-        {
-            "id": "parallelInverter_T58-002",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyWh": 20800 },
-            "accessories": [{ "model": null, "quantity": 0 }],
-            "comments": 
-            [
-                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
-            ]
-        },
-        {
-            "id": "parallelInverter_T58-003",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyWh": 30100 },
-            "accessories": [{ "model": null, "quantity": 0 }],
-            "comments": [null]
         }
+
     ]
 }
