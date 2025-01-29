@@ -86,11 +86,11 @@
 
 
 
-                
+        
         {
             "id": "parallelInverter_T58-001",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 20700 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 15500 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -100,27 +100,19 @@
         {
             "id": "parallelInverter_T58-002",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyWh": 20800 },
             "accessories": [{ "model": null, "quantity": 0 }],
-            "comments": [null]
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
         },
         {
             "id": "parallelInverter_T58-003",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
-            "battery": { "model": "T58", "quantity": 8, "powerW": 23000, "availableEnergyWh": 41400 },
-            "accessories": [{ "model": null, "quantity": 0 }],
-            "comments": [null]
-        },
-
-
-        {
-            "id": "parallelInverter_T58-005",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyWh": 30100 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": [null]
         }
-
-
     ]
 }
