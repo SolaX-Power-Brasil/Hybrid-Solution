@@ -156,7 +156,7 @@
             "id": "parallelInverter_T58-121",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
             "battery": { "model": "T58", "quantity": 12, "powerW": 17250, "availableEnergyWh": 62100 },
-            "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
+            "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 2 }],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
@@ -166,7 +166,7 @@
             "id": "parallelInverter_T58-122",
             "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 2, "nominalVoltageV": 380, "ratedPowerW": 30000, "peakPowerW": 45000 },
             "battery": { "model": "T58", "quantity": 16, "powerW": 23000, "availableEnergyWh": 82800 },
-            "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
+            "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 2 }],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
@@ -204,7 +204,31 @@
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
             ]
+        },
+
+        {
+            "id": "parallelInverter_T58-131",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 18, "powerW": 25875, "availableEnergyWh": 93150 },
+            "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 3 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
+        },
+        {
+            "id": "parallelInverter_T58-132",
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 3, "nominalVoltageV": 380, "ratedPowerW": 45000, "peakPowerW": 67500 },
+            "battery": { "model": "T58", "quantity": 24, "powerW": 34500, "availableEnergyWh": 124200 },
+            "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 3 }],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+            ]
         }
+
+
+
 
 
 
