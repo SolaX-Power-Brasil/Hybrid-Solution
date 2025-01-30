@@ -1,7 +1,7 @@
 import pytest
-import os
 import json
 from collections import Counter
+from test_common import files
 
 def no_duplicated_id(file_path: str) -> bool:
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -16,11 +16,11 @@ def no_duplicated_id(file_path: str) -> bool:
         return False
     else:
         return True
-    
-
-def test_duplicated_id():
-    assert no_duplicated_id("../singlePhaseHVBat.json") == True
-    assert no_duplicated_id("../splitPhaseHVBat.json") == True
-    assert no_duplicated_id("../threePhaseHVBat.json") == True
 
 
+def test_no_duplicated_id():
+    for file in files:
+        assert no_duplicated_id(file) == True
+
+if __name__ == "__main__":
+    test_no_duplicated_id()
