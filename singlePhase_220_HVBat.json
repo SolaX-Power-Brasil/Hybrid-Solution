@@ -4,7 +4,7 @@
         {
             "id": "singleInverter_5K_T58-001",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 1, "powerW": 2800, "availableEnergyWh": 5100 },
+            "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -14,7 +14,7 @@
         {
             "id": "singleInverter_5K_T58-002",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -24,7 +24,7 @@
         {
             "id": "singleInverter_5K_T58-003",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8640, "availableEnergyWh": 15500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": [null]
         },
@@ -33,7 +33,7 @@
         {
             "id": "singleInverter_5K_T58-102",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 5600, "availableEnergyWh": 20800 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
@@ -43,7 +43,7 @@
         {
             "id": "singleInverter_5K_T58-103",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 8640, "availableEnergyWh": 30100 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": [null]
         },
@@ -52,7 +52,7 @@
         {
             "id": "singleInverter_5K_T58-201",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 1, "powerW": 2800, "availableEnergyWh": 5100 },
+            "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
@@ -64,7 +64,7 @@
         {
             "id": "singleInverter_5K_T58-202",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
@@ -75,7 +75,7 @@
         {
             "id": "singleInverter_5K_T58-203",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8640, "availableEnergyWh": 15500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
@@ -88,7 +88,7 @@
         {
             "id": "singleInverter_5K_T58-301",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 5600, "availableEnergyWh": 20800 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }, { "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
@@ -100,7 +100,7 @@
         {
             "id": "singleInverter_5K_T58-302",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 8640, "availableEnergyWh": 30100  },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050  },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }, { "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
@@ -113,7 +113,7 @@
         {
             "id": "parallelInverter_5K_T58-001",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 10000, "peakPowerW": 15000 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -123,7 +123,7 @@
         {
             "id": "parallelInverter_5K_T58-002",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 10000, "peakPowerW": 15000 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyWh": 20800 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 20700 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -133,7 +133,7 @@
         {
             "id": "parallelInverter_5K_T58-003",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 10000, "peakPowerW": 15000 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyWh": 30100 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": [null]
         },
@@ -142,7 +142,7 @@
         {
             "id": "parallelInverter_5K_T58-101",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 10000, "peakPowerW": 15000 },
-            "battery": { "model": "T58", "quantity": 8, "powerW": 11400, "availableEnergyWh": 41400 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 11500, "availableEnergyWh": 41400 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 2 }],
             "comments": 
             [
@@ -152,7 +152,7 @@
         {
             "id": "parallelInverter_5K_T58-102",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 10000, "peakPowerW": 15000 },
-            "battery": { "model": "T58", "quantity": 12, "powerW": 17400, "availableEnergyWh":  62100 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 17250, "availableEnergyWh":  62100 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 2 }],
             "comments": 
             [
@@ -166,7 +166,7 @@
         {
             "id": "singleInverter_7.5K_T58-001",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 1, "powerW": 2800, "availableEnergyWh": 5100 },
+            "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -176,7 +176,7 @@
         {
             "id": "singleInverter_7.5K_T58-002",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -186,7 +186,7 @@
         {
             "id": "singleInverter_7.5K_T58-003",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8640, "availableEnergyWh": 15500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -198,7 +198,7 @@
         {
             "id": "singleInverter_7.5K_T58-101",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 5600, "availableEnergyWh": 20800 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
@@ -208,7 +208,7 @@
         {
             "id": "singleInverter_7.5K_T58-102",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 8640, "availableEnergyWh": 30100 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
@@ -220,7 +220,7 @@
         {
             "id": "singleInverter_7.5K_T58-201",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 1, "powerW": 2800, "availableEnergyWh": 5100 },
+            "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
@@ -232,7 +232,7 @@
         {
             "id": "singleInverter_7.5K_T58-202",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
@@ -244,7 +244,7 @@
         {
             "id": "singleInverter_7.5K_T58-203",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8640, "availableEnergyWh": 15500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
@@ -257,7 +257,7 @@
         {
             "id": "parallelInverter_7.5K_T58-001",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -267,7 +267,7 @@
         {
             "id": "parallelInverter_7.5K_T58-002",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyWh": 20800 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 20700 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -277,7 +277,7 @@
         {
             "id": "parallelInverter_7.5K_T58-003",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyWh": 30100 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -289,7 +289,7 @@
         {
             "id": "parallelInverter_7.5K_T58-101",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 8, "powerW": 11400, "availableEnergyWh": 41400 },
+            "battery": { "model": "T58", "quantity": 8, "powerW": 11500, "availableEnergyWh": 41400 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 2 }],
             "comments": 
             [
@@ -299,7 +299,7 @@
         {
             "id": "parallelInverter_7.5K_T58-102",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 15000, "peakPowerW": 22500 },
-            "battery": { "model": "T58", "quantity": 12, "powerW": 17400, "availableEnergyWh":  62100 },
+            "battery": { "model": "T58", "quantity": 12, "powerW": 17250, "availableEnergyWh":  62100 },
             "accessories": [{ "model": "BMS-Parallel Box-II G2", "quantity": 2 }],
             "comments": 
             [

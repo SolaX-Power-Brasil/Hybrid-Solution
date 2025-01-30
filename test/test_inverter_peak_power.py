@@ -1,5 +1,4 @@
 import pytest
-import os
 import json
 from collections import Counter
 from test_common import inverters_peak_power, files

@@ -4,7 +4,7 @@
         {
             "id": "singleInverter_6K_T58-001",
             "inverter": { "model": "X1-SPT-6K", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 6000, "peakPowerW": 7200 },
-            "battery": { "model": "T58", "quantity": 1, "powerW": 2800, "availableEnergyWh": 5100 },
+            "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -14,7 +14,7 @@
         {
             "id": "singleInverter_6K_T58-002",
             "inverter": { "model": "X1-SPT-6K", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 6000, "peakPowerW": 7200 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -24,7 +24,7 @@
         {
             "id": "singleInverter_6K_T58-003",
             "inverter": { "model": "X1-SPT-6K", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 6000, "peakPowerW": 7200 },
-            "battery": { "model": "T58", "quantity": 3, "powerW": 8640, "availableEnergyWh": 15500 },
+            "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -38,7 +38,7 @@
         {
             "id": "parallelInverter_6K_T58-001",
             "inverter": { "model": "X1-SPT-6K", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 12000, "peakPowerW": 14400 },
-            "battery": { "model": "T58", "quantity": 2, "powerW": 5600, "availableEnergyWh": 10200 },
+            "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -48,7 +48,7 @@
         {
             "id": "parallelInverter_6K_T58-002",
             "inverter": { "model": "X1-SPT-6K", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 12000, "peakPowerW": 14400 },
-            "battery": { "model": "T58", "quantity": 4, "powerW": 11400, "availableEnergyWh": 20800 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 11500, "availableEnergyWh": 20700 },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
@@ -58,7 +58,7 @@
         {
             "id": "parallelInverter_6K_T58-003",
             "inverter": { "model": "X1-SPT-6K", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 12000, "peakPowerW": 14400 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 17200, "availableEnergyWh": 30100  },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 17250, "availableEnergyWh": 31050  },
             "accessories": [{ "model": null, "quantity": 0 }],
             "comments": 
             [
