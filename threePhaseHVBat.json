@@ -550,7 +550,7 @@
 
         {
             "id": "parallelInverter_T58-651",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 75000, "peakPowerW": 112500 },
             "battery": { "model": "T58", "quantity": 30, "powerW": 43125, "availableEnergyWh": 155250 },
             "accessories": 
             [
@@ -567,7 +567,7 @@
         },
         {
             "id": "parallelInverter_T58-652",
-            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 60000, "peakPowerW": 90000 },
+            "inverter": { "model": "X3-HYBRID-15.0-D", "quantity": 5, "nominalVoltageV": 380, "ratedPowerW": 75000, "peakPowerW": 112500 },
             "battery": { "model": "T58", "quantity": 40, "powerW": 57500, "availableEnergyWh": 207000 },
             "accessories": 
             [
