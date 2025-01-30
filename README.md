@@ -51,7 +51,7 @@ Informações em formato JSON sobre as possíveis combinações de produtos híb
 
 ## Conteúdo dos Arquivos
 [`singlePhase_220_HVBat.json`](singlePhaseHVBat.json): Soluções para sistemas **monofásicos 220V**, usando a família **X1-Hybrid-G4** e **Baterias de alta tensão T58**  
-['splitPhase_220V_HVBat.json'](splitPhaseHVBat.json): Soluções para sistemas do tipo **bifásicos 110/220V**, usando a família **X1-SPT** e **Baterias de alta tensão T58**  
+[`splitPhase_220V_HVBat.json`](splitPhaseHVBat.json): Soluções para sistemas do tipo **bifásicos 110/220V**, usando a família **X1-SPT** e **Baterias de alta tensão T58**  
 [`threePhase_220_HVBat.json`](threePhaseHVBat.json): Soluções para sistemas **trifásicos 220V**, usando a família **X3-Hybrid-G4-LV** e **Baterias de alta tensão T58**  
 [`threePhase_380_HVBat.json`](threePhaseHVBat.json): Soluções para sistemas **trifásicos 380V**, usando a família **X3-Hybrid-G4** e **Baterias de alta tensão T58** 
 
