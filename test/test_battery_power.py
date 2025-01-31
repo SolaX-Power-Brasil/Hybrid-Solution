@@ -1,7 +1,6 @@
-import pytest
-import json
+import pytest, json
 from collections import Counter
-from test_common import files, batteries_standard_power, batteries_useful_energy
+from test_common import files, batteries_standard_power
 
 """
 Test if nominal power (Pn) times number of inverters is correct 
