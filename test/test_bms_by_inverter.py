@@ -12,6 +12,7 @@ def bms_by_inverter(file_path: str) -> bool:
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
+
     for key, value in data.items():
         for idx,solution in enumerate(data[key]):
             inverter_count = solution['inverter']['quantity']
