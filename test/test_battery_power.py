@@ -1,7 +1,6 @@
-import pytest
-import json
+import pytest, json
 from collections import Counter
-from test_common import files, batteries_standard_power, batteries_useful_energy
+from test_common import files, batteries_standard_power, accessories
 
 """
 Test if nominal power (Pn) times number of inverters is correct 
@@ -21,7 +20,7 @@ def inverter_power_match(file_path: str) -> bool:
             single_battery_power = batteries_standard_power.get(battery['model'], 0)
             
             for accessory in solution['accessories']:
-                if accessory['model'] == "BMS-Parallel Box-II G2":
+                if accessory['model'] == accessories['bms']:
                     battery_count /= 2 # Using BMS reduce the power to the half
                 
             if single_battery_power * battery_count == solution_battery_power: 

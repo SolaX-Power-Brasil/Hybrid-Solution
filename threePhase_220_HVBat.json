@@ -1860,7 +1860,7 @@
 
 
         {
-            "id": "parallelInverter_18.3_T58-5101",
+            "id": "parallelInverter_8.3K_T58-5101",
             "inverter": { "model": "X3-HYBRID-8.3-D LV", "quantity": 10, "nominalVoltageV": 220, "ratedPowerW": 83000, "peakPowerW": 124500 },
             "battery": { "model": "T58", "quantity": 20, "powerW": 57500, "availableEnergyWh": 103500 },
             "accessories": 
@@ -1876,7 +1876,7 @@
             ]
         },
         {
-            "id": "parallelInverter_18.3_T58-5102",
+            "id": "parallelInverter_8.3K_T58-5102",
             "inverter": { "model": "X3-HYBRID-8.3-D LV", "quantity": 10, "nominalVoltageV": 220, "ratedPowerW": 83000, "peakPowerW": 124500 },
             "battery": { "model": "T58", "quantity": 30, "powerW": 86250, "availableEnergyWh": 155250 },
             "accessories": 
@@ -1892,7 +1892,7 @@
             ]
         },
         {
-            "id": "parallelInverter_18.3_T58-5103",
+            "id": "parallelInverter_8.3K_T58-5103",
             "inverter": { "model": "X3-HYBRID-8.3-D LV", "quantity": 10, "nominalVoltageV": 220, "ratedPowerW": 83000, "peakPowerW": 124500 },
             "battery": { "model": "T58", "quantity": 40, "powerW": 115000, "availableEnergyWh": 207000 },
             "accessories": 
@@ -1909,7 +1909,7 @@
         },
 
         {
-            "id": "parallelInverter_18.3_T58-6101",
+            "id": "parallelInverter_8.3K_T58-6101",
             "inverter": { "model": "X3-HYBRID-8.3-D LV", "quantity": 10, "nominalVoltageV": 220, "ratedPowerW": 83000, "peakPowerW": 124500 },
             "battery": { "model": "T58", "quantity": 60, "powerW": 86250, "availableEnergyWh": 310500 },
             "accessories": 
@@ -1926,7 +1926,7 @@
             ]
         },
         {
-            "id": "parallelInverter_18.3_T58-6102",
+            "id": "parallelInverter_8.3K_T58-6102",
             "inverter": { "model": "X3-HYBRID-8.3-D LV", "quantity": 10, "nominalVoltageV": 220, "ratedPowerW": 83000, "peakPowerW": 124500 },
             "battery": { "model": "T58", "quantity": 80, "powerW": 115000, "availableEnergyWh": 414000 },
             "accessories": 

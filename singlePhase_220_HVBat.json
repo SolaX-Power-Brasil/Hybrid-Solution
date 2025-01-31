@@ -255,6 +255,39 @@
         },
 
         {
+            "id": "singleInverter_7.5K_T58-301",
+            "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
+            "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
+            "accessories": 
+            [
+                { "model": "X3-Matebox Advanced", "quantity": 1 },
+                { "model": "BMS-Parallel Box-II G2", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Opção para Backup Completo. Consulte o datasheet do equipamento e verifique as características operacionais.",
+                "A corrente nominal da Matebox é 60A."
+            ]
+        },
+        {
+            "id": "singleInverter_7.5K_T58-302",
+            "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 5750, "availableEnergyWh": 31050 },
+            "accessories": 
+            [
+                { "model": "X3-Matebox Advanced", "quantity": 1 },
+                { "model": "BMS-Parallel Box-II G2", "quantity": 1 }
+            ],
+            "comments": 
+            [
+                "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
+                "Opção para Backup Completo. Consulte o datasheet do equipamento e verifique as características operacionais.",
+                "A corrente nominal da Matebox é 60A."
+            ]
+        },
+
+        {
             "id": "parallelInverter_7.5K_T58-001",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 2, "nominalVoltageV": 220, "ratedPowerW": 15000, "peakPowerW": 22500 },
             "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
