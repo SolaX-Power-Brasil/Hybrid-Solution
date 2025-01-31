@@ -28,14 +28,14 @@ batteries_useful_energy = {
     "T58": 5175
 }
 
-accessories = [
-    "X1-Matebox Advanced",
-    "X3-Matebox Advanced",
-    "X3-PBOX-60kW-G2",
-    "X3-PBOX-150kW-G2", 
-    "BMS-Parallel Box-II G2",
-    "Smart Meter"
-]
+accessories = {
+    'x1_matebox'  : "X1-Matebox Advanced",
+    'x3_matebox'  : "X3-Matebox Advanced",
+    'x3_pbox_60k' : "X3-PBOX-60kW-G2",
+    'x3_pbox_150k': "X3-PBOX-150kW-G2", 
+    'bms'         : "BMS-Parallel Box-II G2",
+    'meter'       : "Smart Meter"
+}
 
 comment_rated_peak_power = "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
 comment_peak_poer = "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
