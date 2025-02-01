@@ -1,20 +1,23 @@
 import pytest
 import json
 from collections import Counter
-from test_common import files, accessories
+from test_common import *
 
 """
 Test if nominal number of batteries, BMS and inverters are correct 
 """
-
 def bms_battery_by_inverter(file_path: str) -> bool:
 
-    with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-     
+    data = get_data(file_path)
+    if data == None:
+        return False
+
+#    with open(file_path, 'r', encoding='utf-8') as file:
+#        data = json.load(file)
+#     
     for key, value in data.items():
         for idx,solution in enumerate(data[key]):
-            inverters = solution['inverter']['quantity']
+            inverters = get_inverter_number(solution)
             batteries = solution['battery']['quantity']
             bms_count = 0
             for accessory in solution['accessories']:
