@@ -27,12 +27,12 @@ def test_solution(pv_available, load_power, load_peak_powerW, load_energyWh, sol
     
     if not energy_match: 
         return False
-
-    if ( (not pv_available) and power_without_pv_match ) or \
-       ( pv_available and power_with_pv_match ):    
-        logger.info(f'"Pn": {load_power}; "Ppico": {load_peak_powerW}; "Energia": {load_energyWh}')
+    
+    if ((not pv_available) and power_without_pv_match) or \
+            (pv_available and power_with_pv_match):    
+        logger.info(f'"PV available:": {pv_available==1}, "Pn[W]": {load_power}; "Ppico[W]": {load_peak_powerW}; "Energy[Wh]": {load_energyWh}')
         logger.info(solution)      
         return True
-    
+        
     return False
 

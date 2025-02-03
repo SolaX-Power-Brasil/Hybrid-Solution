@@ -40,6 +40,6 @@ if __name__ == "__main__":
     ld_peak_pwr = int(sys.argv[2])
     ld_energy = int(sys.argv[3])
     if singlePhaseSolution(next(iter(singlePhase_files)), ld_pwr, ld_peak_pwr, ld_energy) == False:
-        logger.info("Solução não encontrada. Confira se os dados estão corretos")
+        logger.info(f"Solução não encontrada. Confira se os dados estão corretos.")
         
 

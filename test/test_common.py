@@ -11,22 +11,6 @@ def get_data(file_path: str) -> any:
         return data
     return None
 
-#Imprime uma solução
-def print_solution(solution=None) -> None:
-    line = "----------------------------------------------------------"        
-    print(f"{bcolors.OKGREEN}{line}\n Sugestão recomendada \n{line}{bcolors.ENDC}")
-    print(solution)
-    return
-
-class bcolors:
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-
-
 
 inverters_rated_power = {
     "X1-HYBRID-5.0-D":    5000, 
@@ -62,15 +46,6 @@ class accs:
     bms          = "BMS-Parallel Box-II G2"
     meter        = "Smart Meter"
 
-accessories = {
-    'x1_matebox'  : "X1-Matebox Advanced",
-    'x3_matebox'  : "X3-Matebox Advanced",
-    'x3_pbox_60k' : "X3-PBOX-60kW-G2",
-    'x3_pbox_150k': "X3-PBOX-150kW-G2", 
-    'bms'         : "BMS-Parallel Box-II G2",
-    'meter'       : "Smart Meter"
-}
-
 comment_rated_peak_power = "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
 comment_peak_poer = "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
 comment_x3_epsbox = "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais)."
@@ -94,7 +69,6 @@ files = {
     "../splitPhase_220_HVBat.json",
     "../threePhase_380_HVBat.json",
     "../threePhase_220_HVBat.json"
-    ## ,"../threePhase_220_5_5K_HVBat.json"
 }
 
 def get_inverter_powerW(solution)      -> int: return int( solution['inverter']['ratedPowerW'])
@@ -107,4 +81,7 @@ def get_battery_energyWh(solution)     -> int: return int( solution['battery']['
 def get_battery_quantity(solution)     -> int: return int( solution['battery']['quantity'] )
 def get_battery_model(solution)        -> str: return str( solution['battery']['model'] )
 
-
+def get_x3_pbox_60_number(solution): 
+    return [(x3_pbox['quantity']) for x3_pbox in solution['accessories'] if x3_pbox['model'] == accs.x3_pbox_60k ]
+def get_x3_pbox_150_number(solution): 
+    return [(x3_pbox['quantity']) for x3_pbox in solution['accessories'] if x3_pbox['model'] == accs.x3_pbox_150k ]

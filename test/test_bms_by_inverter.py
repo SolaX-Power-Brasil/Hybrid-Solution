@@ -18,7 +18,7 @@ def bms_by_inverter(file_path: str) -> bool:
             inverter_count = get_inverter_number(solution)
             bms_count = 0
             for accessory in solution['accessories']:
-                if accessory['model'] == accessories['bms']:
+                if accessory['model'] == accs.bms:
                     bms_count = accessory['quantity'] 
                 
             if bms_count > 0:

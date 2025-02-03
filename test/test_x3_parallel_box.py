@@ -13,19 +13,28 @@ def inverter_power_match(file_path: str) -> bool:
 
     for key, value in data.items():   
         for idx,solution in enumerate(data[key]):
-            #x3_eps_pbox_count = 
-            battery_count: int = get_battery_quantity(solution)
-            single_battery_power = batteries_standard_power.get(get_battery_model(solution), 0)
+            x3_pbox_60KW_count = get_x3_pbox_60_number(solution)
+            x3_pbox_150KW_count = get_x3_pbox_150_number(solution)
+            inverters_count = get_inverter_number(solution)
+            inverters_power = get_inverter_powerW(solution)            
+            x3_pbox_60KW_powerW = 60000
+            x3_pbox_150KW_powerW = 150000
+            limit_without_x3_pbox = 3
             
-            bms_count = [(bms_['quantity']) for bms_ in solution['accessories'] if bms_['model'] == accs.bms ]
-            if bms_count != []:
-                battery_count /= 2 # Using BMS reduce the power to the half
-                
-            if single_battery_power * battery_count == get_battery_powerW(solution): 
+            if(inverters_count <= limit_without_x3_pbox):
                 print(f"{solution['id']}: ok")
-            else: 
-                print(f"Fail - Battery power: {solution['id']} - File: {file_path}")
-                return False
+                continue
+
+            if (x3_pbox_60KW_count != []) and (inverters_power <= x3_pbox_60KW_powerW):
+                print(f"{solution['id']}: ok")
+                continue
+                
+            if (x3_pbox_150KW_count != [] ) and (inverters_power <= x3_pbox_150KW_powerW):
+                print(f"{solution['id']}: ok")
+                continue
+ 
+            print(f"Fail - X3-EPS Parallel Box: {solution['id']} - File: {file_path}")
+            return False
 
     return True
 
