@@ -19,15 +19,13 @@ def print_solution(solution=None) -> None:
     return
 
 class bcolors:
-    HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKCYAN = '\033[96m'
     OKGREEN = '\033[92m'
     WARNING = '\033[93m'
     FAIL = '\033[91m'
     ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
+
 
 
 inverters_rated_power = {
@@ -47,6 +45,7 @@ inverters_peak_power = {
     "X3-HYBRID-8.3-D LV": 12450,
     "X3-HYBRID-15.0-D":   22500
 }
+
 
 batteries_standard_power = {
     "T58": 2875
@@ -98,12 +97,14 @@ files = {
     ## ,"../threePhase_220_5_5K_HVBat.json"
 }
 
-def inverter_peak_powerW(solution) -> int: return int( solution['inverter']['peakPowerW'] )
-def get_inverter_number(solution)  -> int: return int( solution['inverter']['quantity'] )
-def inverter_model(solution)       -> str: return str( solution['inverter']['model'] )
+def get_inverter_powerW(solution)      -> int: return int( solution['inverter']['ratedPowerW'])
+def get_inverter_peak_powerW(solution) -> int: return int( solution['inverter']['peakPowerW'] )
+def get_inverter_number(solution)      -> int: return int( solution['inverter']['quantity'] )
+def get_inverter_model(solution)       -> str: return str( solution['inverter']['model'] )
 
-def battery_powerW(solution)       -> int: return int( solution['battery']['powerW'] )
-def battery_energyWh(solution)     -> int: return int( solution['battery']['availableEnergyWh'] )
-def battery_quantity(solution)     -> int: return int( solution['battery']['quantity'] )
-def battery_model(solution)        -> str: return str( solution['battery']['model'] )
+def get_battery_powerW(solution)       -> int: return int( solution['battery']['powerW'] )
+def get_battery_energyWh(solution)     -> int: return int( solution['battery']['availableEnergyWh'] )
+def get_battery_quantity(solution)     -> int: return int( solution['battery']['quantity'] )
+def get_battery_model(solution)        -> str: return str( solution['battery']['model'] )
+
 

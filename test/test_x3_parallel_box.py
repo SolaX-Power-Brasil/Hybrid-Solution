@@ -3,7 +3,7 @@ from collections import Counter
 from test_common import *
 
 """
-Test if nominal power (Pn) times number of inverters is correct 
+Test if Parallel Box is correct 
 """
 
 def inverter_power_match(file_path: str) -> bool:
@@ -11,9 +11,9 @@ def inverter_power_match(file_path: str) -> bool:
     data = get_data(file_path)
     if data == None: return False
 
-    for key, value in data.items():
-        #print(f"{value}")   
+    for key, value in data.items():   
         for idx,solution in enumerate(data[key]):
+            #x3_eps_pbox_count = 
             battery_count: int = get_battery_quantity(solution)
             single_battery_power = batteries_standard_power.get(get_battery_model(solution), 0)
             
