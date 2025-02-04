@@ -1,11 +1,11 @@
 import pytest
 import json
 from collections import Counter
-from test_common import files
+from test_common import *
 
 def no_duplicated_id(file_path: str) -> bool:
-    with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
+    data = get_data(file_path)
+    if data == None: return False
 
     for key, value in data.items():    
         ids = [item['id'] for item in data[key]]

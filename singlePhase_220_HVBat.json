@@ -256,7 +256,7 @@
 
         {
             "id": "singleInverter_7.5K_T58-301",
-            "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
+            "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
             "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
             "accessories": 
             [
@@ -272,8 +272,8 @@
         },
         {
             "id": "singleInverter_7.5K_T58-302",
-            "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
-            "battery": { "model": "T58", "quantity": 6, "powerW": 5750, "availableEnergyWh": 31050 },
+            "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
+            "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
             "accessories": 
             [
                 { "model": "X3-Matebox Advanced", "quantity": 1 },

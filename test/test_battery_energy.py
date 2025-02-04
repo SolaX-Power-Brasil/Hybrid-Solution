@@ -1,6 +1,6 @@
 import pytest, json
 from collections import Counter
-from test_common import files, batteries_useful_energy
+from test_common import *
 
 """
 Test if nominal power (Pn) times number of inverters is correct 
@@ -8,23 +8,18 @@ Test if nominal power (Pn) times number of inverters is correct
 
 def inverter_power_match(file_path: str) -> bool:
 
-    with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
+    data = get_data(file_path)
+    if data == None: return False
 
     for key, value in data.items():
         #print(f"{value}")   
         for idx,solution in enumerate(data[key]):
-            battery = solution['battery']
-            battery_count: int =battery['quantity']
-            solution_battery_energy: int =battery['availableEnergyWh']
-            single_battery_energy = batteries_useful_energy.get(battery['model'], 0)
-                
-            if single_battery_energy * battery_count == solution_battery_energy: 
+            single_battery_energy = batteries_useful_energy.get(get_battery_model(solution), 0)        
+            if single_battery_energy * get_battery_quantity(solution) == get_battery_energyWh(solution): 
                 print(f"{solution['id']}: ok")
             else: 
                 print(f"Fail - Battery energy: {solution['id']} - File: {file_path}")
                 return False
-
     return True
 
     

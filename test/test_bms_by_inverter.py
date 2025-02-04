@@ -1,7 +1,7 @@
 import pytest
 import json
 from collections import Counter
-from test_common import files, accessories
+from test_common import *
 
 """
 Test if nominal power (Pn) times number of inverters is correct 
@@ -9,16 +9,16 @@ Test if nominal power (Pn) times number of inverters is correct
 
 def bms_by_inverter(file_path: str) -> bool:
 
-    with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
+    data = get_data(file_path)
+    if data == None: return False
 
 
     for key, value in data.items():
         for idx,solution in enumerate(data[key]):
-            inverter_count = solution['inverter']['quantity']
+            inverter_count = get_inverter_number(solution)
             bms_count = 0
             for accessory in solution['accessories']:
-                if accessory['model'] == accessories['bms']:
+                if accessory['model'] == accs.bms:
                     bms_count = accessory['quantity'] 
                 
             if bms_count > 0:
