@@ -31,6 +31,11 @@ inverters_peak_power = {
 }
 
 
+class hv_bat:
+    ...
+    class t58:
+        standard_powerW = 2875 
+
 batteries_standard_power = {
     "T58": 2875
 }
