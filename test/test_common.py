@@ -76,8 +76,11 @@ files = {
     "../threePhase_220_HVBat.json"
 }
 
-def get_inverter_powerW(solution)      -> int: return int( solution['inverter']['ratedPowerW'])
+def get_solution_id(solution)          -> str: return str( solution['id']  )
+    
+def get_inverter_powerW(solution)      -> int: return int( solution['inverter']['ratedPowerW'] )
 def get_inverter_peak_powerW(solution) -> int: return int( solution['inverter']['peakPowerW'] )
+def get_inverter_voltage(solution)     -> int: return int( solution['inverter']['nominalVoltageV'] )
 def get_inverter_number(solution)      -> int: return int( solution['inverter']['quantity'] )
 def get_inverter_model(solution)       -> str: return str( solution['inverter']['model'] )
 
