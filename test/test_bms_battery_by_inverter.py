@@ -15,7 +15,7 @@ def bms_battery_by_inverter(file_path: str) -> bool:
         for idx,solution in enumerate(data[key]):
             bms_count = [(bms_['quantity']) for bms_ in solution['accessories'] if bms_['model'] == accs.bms ]
             if bms_count != []:                
-                battery_by_inverter = get_battery_quantity(solution) / get_inverter_number(solution)
+                battery_by_inverter = get_battery_number(solution) / get_inverter_number(solution)
                 bms_battery_ports = 2
                 if battery_by_inverter % bms_battery_ports != 0: 
                     print(f"Fail - Battery->BMS->Inverter: {solution['id']} - File: {file_path}")

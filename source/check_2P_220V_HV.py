@@ -1,5 +1,5 @@
 """
-TESTA APLICAÇÔES MONOFÁSICAS 
+TESTA APLICAÇÔES BIFÁSICAS 
 """
 
 import sys
