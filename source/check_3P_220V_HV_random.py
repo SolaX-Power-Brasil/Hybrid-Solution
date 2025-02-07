@@ -19,11 +19,11 @@ if __name__ == "__main__":
 
         while num_tests > 0:
             num_tests-= 1
-            step = random
             init_value = 1
-            ld_power = random.randrange(init_value, ld_power_limitW, step)
-            ld_peak_power = random.randrange(ld_power, ld_peak_power_limitW, step)
-            ld_energy = random.randrange(init_value, ld_energy_limitWh, step)
+            delta = random.randrange(start=1, stop=1000, step=1)
+            ld_power = random.randrange(start=init_value, stop=ld_power_limitW, step=delta)
+            ld_peak_power = random.randrange(start=ld_power, stop=ld_peak_power_limitW, step=delta)
+            ld_energy = random.randrange(start=init_value, stop=ld_energy_limitWh, step=delta)
             if threePhase_220V_solution(next(iter(threePhase_220V_files)), ld_power, ld_peak_power, ld_energy) == False:
                 logger.info(f"Solução não encontrada. Confira se os dados estão corretos.")
 

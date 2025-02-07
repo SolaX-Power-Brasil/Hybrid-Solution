@@ -15,7 +15,7 @@ def inverter_power_match(file_path: str) -> bool:
         #print(f"{value}")   
         for idx,solution in enumerate(data[key]):
             single_battery_energy = batteries_useful_energy.get(get_battery_model(solution), 0)        
-            if single_battery_energy * get_battery_quantity(solution) == get_battery_energyWh(solution): 
+            if single_battery_energy * get_battery_number(solution) == get_battery_energyWh(solution): 
                 print(f"{solution['id']}: ok")
             else: 
                 print(f"Fail - Battery energy: {solution['id']} - File: {file_path}")
