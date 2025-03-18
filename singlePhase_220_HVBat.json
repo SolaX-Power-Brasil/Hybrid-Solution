@@ -53,7 +53,7 @@
             "id": "singleInverter_5K_T58-201",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
@@ -65,7 +65,7 @@
             "id": "singleInverter_5K_T58-202",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
                 "Opção para Backup Completo. Consulte o datasheet do equipamento e verifique as características operacionais.",
@@ -76,7 +76,7 @@
             "id": "singleInverter_5K_T58-203",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
                 "Opção para Backup Completo. Consulte o datasheet do equipamento e verifique as características operacionais.",
@@ -89,7 +89,7 @@
             "id": "singleInverter_5K_T58-301",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }, { "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }, { "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
                 "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
@@ -101,7 +101,7 @@
             "id": "singleInverter_5K_T58-302",
             "inverter": { "model": "X1-HYBRID-5.0-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 5000, "peakPowerW": 7500 },
             "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050  },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }, { "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }, { "model": "BMS-Parallel Box-II G2", "quantity": 1 }],
             "comments": 
             [
                 "Opção para Backup Completo. Consulte o datasheet do equipamento e verifique as características operacionais.",
@@ -221,7 +221,7 @@
             "id": "singleInverter_7.5K_T58-201",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
             "battery": { "model": "T58", "quantity": 1, "powerW": 2875, "availableEnergyWh": 5175 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
@@ -233,7 +233,7 @@
             "id": "singleInverter_7.5K_T58-202",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
             "battery": { "model": "T58", "quantity": 2, "powerW": 5750, "availableEnergyWh": 10350 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
                 "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
@@ -245,7 +245,7 @@
             "id": "singleInverter_7.5K_T58-203",
             "inverter": { "model": "X1-HYBRID-7.5-D", "quantity": 1, "nominalVoltageV": 220, "ratedPowerW": 7500, "peakPowerW": 11250 },
             "battery": { "model": "T58", "quantity": 3, "powerW": 8625, "availableEnergyWh": 15525 },
-            "accessories": [{ "model": "X3-Matebox Advanced", "quantity": 1 }],
+            "accessories": [{ "model": "X1-Matebox Advanced", "quantity": 1 }],
             "comments": 
             [
                 "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria ).",
@@ -260,7 +260,7 @@
             "battery": { "model": "T58", "quantity": 4, "powerW": 5750, "availableEnergyWh": 20700 },
             "accessories": 
             [
-                { "model": "X3-Matebox Advanced", "quantity": 1 },
+                { "model": "X1-Matebox Advanced", "quantity": 1 },
                 { "model": "BMS-Parallel Box-II G2", "quantity": 1 }
             ],
             "comments": 
@@ -276,7 +276,7 @@
             "battery": { "model": "T58", "quantity": 6, "powerW": 8625, "availableEnergyWh": 31050 },
             "accessories": 
             [
-                { "model": "X3-Matebox Advanced", "quantity": 1 },
+                { "model": "X1-Matebox Advanced", "quantity": 1 },
                 { "model": "BMS-Parallel Box-II G2", "quantity": 1 }
             ],
             "comments": 

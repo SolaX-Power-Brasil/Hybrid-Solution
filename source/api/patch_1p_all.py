@@ -6,6 +6,9 @@ if __name__ == "__main__":
     for file_name in singlePhase_files:
         data = get_data(file_path=root_folder + file_name)
         if data != None:
-            insert_all_records(data=data)
+            url = os.getenv('API_PRODUCTION_POST_TABLE')
+            print(url)
+            insert_all_records(data=data, url_api=url)
+    
     print("Finished")
                 

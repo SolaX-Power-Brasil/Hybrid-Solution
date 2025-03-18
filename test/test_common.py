@@ -52,7 +52,7 @@ class accs:
     meter        = "Smart Meter"
 
 comment_rated_peak_power = "Para operar na potência nominal e de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
-comment_peak_poer = "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
+comment_peak_power = "Para operar na potência de pico (10 segundos) será necessário ter potência FV ( Potência Inversor - Potência Bateria )."
 comment_x3_epsbox = "Verifique os limites operacionais da X3-EPS Parallel Box G2 na documentação técnica (Datasheet e Manuais)."
 comment_smart_meter = "O Smart Meter deve ser compatível com os inversores SolaX, verifique a disponibilidade com seu distribuidor."
 
@@ -89,17 +89,18 @@ def get_battery_energyWh(solution)     -> int: return int( solution['battery']['
 def get_battery_number(solution)       -> int: return int( solution['battery']['quantity'] )
 def get_battery_model(solution)        -> str: return str( solution['battery']['model'] )
 
-def get_matebox_included(solution) -> bool:
-    matebox_x1: bool= [] != [matebox for matebox in solution['accessories'] if matebox['model'] == accs.x1_matebox ]
-    matebox_x3: bool= [] != [matebox for matebox in solution['accessories'] if matebox['model'] == accs.x3_matebox ]
-    return matebox_x1 or matebox_x3
-
 def get_x3_pbox_60_number(solution): 
     return [(x3_pbox['quantity']) for x3_pbox in solution['accessories'] if x3_pbox['model'] == accs.x3_pbox_60k ]
 def get_x3_pbox_150_number(solution): 
     return [(x3_pbox['quantity']) for x3_pbox in solution['accessories'] if x3_pbox['model'] == accs.x3_pbox_150k ]
 
-def get_accessories(solution)          -> list: return list(solution['accessories'])
-def get_comments(solution)             -> list: 
-    comments = [comment for comment in solution['comments']]
-    return comments
+def get_external_ats(solution) -> bool:
+    matebox_x1: bool= [] != [matebox for matebox in solution['accessories'] if matebox['model'] == accs.x1_matebox ]
+    matebox_x3: bool= [] != [matebox for matebox in solution['accessories'] if matebox['model'] == accs.x3_matebox ]
+    epspbox_x3: bool = bool(get_x3_pbox_60_number(solution=solution) or get_x3_pbox_150_number(solution=solution))
+    accept_no_ats: bool = bool(get_inverter_number(solution) <= 3) #3 is the maximum parallel without EPS PBOX
+    external_ats: bool = bool(epspbox_x3 and accept_no_ats)
+    return matebox_x1 or matebox_x3 or external_ats
+
+def get_accessories(solution) -> list: return list(solution['accessories'])
+def get_comments(solution)    -> list: return [comment for comment in solution['comments']]

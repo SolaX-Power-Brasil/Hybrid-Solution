@@ -1,12 +1,16 @@
 
+import os
 import requests
 import time
+from dotenv import load_dotenv
 from test_common import *
 
-api_ep_patch = 'https://x8ki-letl-twmt.n7.xano.io/api:aM7RxPFv/sugestoes_teste'
+
+load_dotenv()
+
 header= { 'Content-Type': 'application/json' }
 json_template: dict = { 
-    "sugestoes_teste_id": 1,
+    "sugestoes_id": 1,
     "name":  "parallelInverter_7.5K_T58-104",
     "inverter_model":  "X1-HYBRID-7.5-D",
     "inverter_quantity": 2,
@@ -19,14 +23,15 @@ json_template: dict = {
     "battery_availableEnergyWH": 0,
     "acessories": [],
     "matebox":  "false",
-    "comments":  [],
+    "comments":  "",
     "type":  "1p_220_hv_bat",
     "inverter_image":  "https://x8ki-letl-twmt.n7.xano.io/vault/20xZAPgJ/9xtkzd1N6brKDP1-TsQDkJW_os0/iAPJSA../X3.png",
     "battery_image":  "https://x8ki-letl-twmt.n7.xano.io/vault/20xZAPgJ/oZBREvTGKimE2Q-etwM7OTucc4E/Bdtuzg../T58.png"  
 }
 
+
 class db_inverter_type:
-    singlePhase_220_hv_bat: str = '1p_220_hv_bat'
+    singlePhase_220_hv_bat: str = 'singlePhase220V' #'1p_220_hv_bat'
     singlePhase_220_lv_bat: str = '1p_220_lv_bat'
     splitPhase_220_hv_bat:  str = '2p_220_hv_bat'
     threePhase_220_hv_bat:  str = '3p_220_hv_bat'
@@ -68,26 +73,31 @@ def populate_template(template:dict = None, solution:str = None) -> bool:
     template["battery_availableEnergyWH"] = get_battery_energyWh(solution=solution)
     #Accessories    
     template["acessories"] = get_accessories(solution=solution)
-    template["matebox"]    = get_matebox_included(solution=solution)
+    template["matebox"]    = get_external_ats(solution=solution)
     #Comments
-    for index, comment in enumerate(solution["comments"]):
-        template["comments"].insert(index, {'content' : comment})
+    template['comments'] = ""
+    comments: list = get_comments(solution=solution)
+    if comments != None:
+        for comment in comments:
+            if comment != None:
+                template['comments'] += comment.replace("[", "").replace("]", "").replace("'", "")
     return True
 
-def insert_single_record(solution: str = None) -> bool:
-    if solution == None: 
+def insert_single_record(solution: str = None, url_api: str = None) -> bool:
+    if solution == None or url_api == None: 
         return False
     if not populate_template(template=json_template, solution=solution):
         return False
+
     time.sleep(2) #Evita o excesso de requisições  
-    response = requests.patch(url=api_ep_patch, headers=header, json=json_template)
+    response = requests.post(url=url_api, headers=header, json=json_template)    
     print(response)
     return response.ok
 
 
-def insert_all_records(data: dict = None) -> bool:
+def insert_all_records(data: dict = None, url_api: str = None) -> bool:
     if data == None: return False
     for key, value in data.items():   
         for idx,solution in enumerate(data[key]):
-            insert_single_record(solution=solution)
+            insert_single_record(solution=solution, url_api=url_api)
     return True
